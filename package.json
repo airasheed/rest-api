@@ -1,0 +1,40 @@
+{
+  "name": "restful-api-express",
+  "version": "1.0.0",
+  "description": "A RESTful API using Express.js, MongoDB via Mongoskin library, and testing with Mocha and SuperAgent.",
+  "main": "express.js",
+  "dependencies": {
+    "body-parser": "1.9.2",
+    "morgan": "1.5.0",
+    "express": "^4.8.1",
+    "mongoskin": "^1.4.1"
+  },
+  "devDependencies": {
+    "expect.js": "^0.3.1",
+    "mocha": "^1.18.2",
+    "superagent": "^0.17.0"
+  },
+  "scripts": {
+    "test": "express.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/airasheed/rest-api.git"
+  },
+  "keywords": [
+    "Express.js",
+    "Node.js",
+    "RESTful",
+    "API",
+    "REST",
+    "API",
+    "Mongoskin",
+    "MongoDb"
+  ],
+  "author": "Abdullah Rasheed",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/airasheed/rest-api/issues"
+  },
+  "homepage": "https://github.com/airasheed/rest-api#readme"
+}
